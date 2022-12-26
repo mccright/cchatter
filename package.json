@@ -1,7 +1,7 @@
 {
   "name": "chitchatter",
   "version": "0.1.1",
-  "homepage": "https://mccright.github.io/cchatter/public/",
+  "homepage": "https://mccright.github.io/cchatter/",
   "author": "Jeremy Kahn <jeremyckahn@gmail.com>",
   "license": "GPL-2.0-or-later",
   "dependencies": {
