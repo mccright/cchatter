@@ -28,7 +28,7 @@ export function Home({ userId }: HomeProps) {
   const navigate = useNavigate()
 
   useEffect(() => {
-    setTitle('Chitchatter')
+    setTitle('cchatter')
   }, [setTitle])
 
   const handleRoomNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -122,12 +122,12 @@ export function Home({ userId }: HomeProps) {
           This is a communication tool that is free, open source, and designed
           for simplicity and security. All communication between you and your
           online peers is encrypted. There is no trace of your conversation once
-          you leave.
+          you leave. This is a fork of https://github.com/jeremyckahn/chitchatter
         </Typography>
       </Box>
       <Tooltip title="View project source code and documentation">
         <MuiLink
-          href="https://github.com/jeremyckahn/chitchatter"
+          href="https://github.com/mccright/cchatter"
           target="_blank"
           sx={{ display: 'block', textAlign: 'center', color: '#fff' }}
         >
@@ -145,14 +145,14 @@ export function Home({ userId }: HomeProps) {
       <Typography variant="body1" sx={{ textAlign: 'center' }}>
         Licensed under{' '}
         <MuiLink
-          href="https://github.com/jeremyckahn/chitchatter/blob/develop/LICENSE"
+          href="https://github.com/mccright/cchatter/blob/develop/LICENSE"
           target="_blank"
         >
           GPL v2
         </MuiLink>
         . Please{' '}
         <MuiLink
-          href="https://github.com/jeremyckahn/chitchatter/blob/develop/README.md"
+          href="https://github.com/mccright/cchatter/blob/develop/README.md"
           target="_blank"
         >
           read the docs
